@@ -6,7 +6,7 @@ AccurateWind removes the random launch spread from player-thrown wind charges. T
 
 Download the JAR labeled for your Paper server version from [Releases](https://github.com/raincakecat/AccurateWind/releases), put it in your server's `plugins` folder, and restart the server. Use only one of the three JARs; they contain the same plugin.
 
-Paper 1.21.11, 26.2, and 26.3 have been checked for startup and plugin loading. The launch handler was tested against each version's API using simulated player and projectile objects. An in-game throw has not yet been tested.
+Paper 1.21.11, 26.2, and 26.3 were tested with six actual player-initiated wind charge throws on each server, across horizontal and steep upward and downward angles. A server-side observer verified that each launch velocity matched the player's aim. The 26.2 and 26.3 tests used an older test client through ViaVersion and ViaBackwards. Impact accuracy and interoperability with other gameplay plugins were not tested.
 
 ## Build
 
@@ -19,3 +19,4 @@ The plugin is source-available under the use-only terms in [LICENSE](LICENSE). T
 ## AI disclosure
 
 The plugin code, build configuration, documentation, and icon composition were created with AI assistance. The wind charge texture in the icon comes from Minecraft.
+
