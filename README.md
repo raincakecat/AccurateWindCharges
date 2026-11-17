@@ -1,10 +1,10 @@
-# AccurateWind
+# AccurateWindCharges
 
-AccurateWind removes the random launch spread from player-thrown wind charges. Their launch direction follows the player's aim, while preserving the projectile's launch speed.
+AccurateWindCharges removes the random launch spread from player-thrown wind charges. Their launch direction follows the player's aim, while preserving the projectile's launch speed.
 
 ## Installation
 
-Download the JAR labeled for your Paper server version from [Releases](https://github.com/raincakecat/AccurateWind/releases), put it in your server's `plugins` folder, and restart the server. Use only one of the three JARs; they contain the same plugin.
+Download the JAR labeled for your Paper server version from [Releases](https://github.com/raincakecat/AccurateWindCharges/releases), put it in your server's `plugins` folder, and restart the server. Use only one of the three JARs; they contain the same plugin.
 
 Paper 1.21.11, 26.2, and 26.3 were tested with six actual player-initiated wind charge throws on each server, across horizontal and steep upward and downward angles. A server-side observer verified that each launch velocity matched the player's aim. The 26.2 and 26.3 tests used an older test client through ViaVersion and ViaBackwards. Impact accuracy and interoperability with other gameplay plugins were not tested.
 
