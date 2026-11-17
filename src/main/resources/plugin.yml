@@ -1,0 +1,5 @@
+name: AccurateWind
+version: 1.0.0
+main: dev.accuratewind.AccurateWind
+api-version: '1.21.11'
+description: Removes random spread from player-thrown wind charges.
